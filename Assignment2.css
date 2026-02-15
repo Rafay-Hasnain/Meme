@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+
+}
+
+.photo {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    /* Margin is to put the image in the center of container */
+
+
+}
+
+.PhotoContainer {
+
+    display: inline-block;
+    /*makes the border shrink and wrap around the image*/
+    border: 100px solid black;
+
+    background-color: black;
+    /* black background inside border */
+}
+
+.caption {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.smallCaption {
+    color: white;
+}
