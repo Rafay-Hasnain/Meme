@@ -4,9 +4,13 @@ body {
 }
 
 .photo {
-    display: block;
+  display: block;
     width: 400px;
     margin: 0 auto;
+    border: 5px solid white;
+    /*solid is the border style as css needs thickness, style and color*/
+
+
     /* Margin is to put the image in the center of container */
 
 
@@ -30,4 +34,5 @@ body {
 
 .smallCaption {
     color: white;
+
 }
